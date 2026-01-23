@@ -1,18 +1,15 @@
 translations = {
     'cat': 'кот',
     'dog': 'пёс',
-    'fish': 'рыба'
+    'fish': 'рыба',
+    'apple': 'яблока',
 }
 
 print("Введите слово на английском, которое хотите перевести")
 
 word = input()
 
-if word == "cat":
-    print(translations[word])
-if word == "dog":
-    print(translations[word])
-if word == "fish":
+if word in translations:
     print(translations[word])
 else:
     print("Извините, такого слова нет в словаре")
