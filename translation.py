@@ -6,7 +6,7 @@ translations = {
 
 print("Введите слово на английском, которое хотите перевести")
 
-word = input()  # читаем ввод пользователя
+word = input()
 
 if word == "cat":
     print(translations[word])
